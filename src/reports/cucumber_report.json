@@ -1,0 +1,342 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "gestión-de-órdenes-en-petstore;consultar-una-orden-de-compra",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Consultar una orden de compra",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22943099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que tengo acceso a la API de Petstore",
+            "match": {
+              "location": "src\\steps\\consultarOrderSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 424999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que he creado una orden con ID 5",
+            "match": {
+              "location": "src\\steps\\buscarOrdenCreadaSteps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 532895100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "consulto la orden con ID 5",
+            "match": {
+              "location": "src\\steps\\consultarOrderSteps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1939499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "la respuesta debe tener código 200",
+            "match": {
+              "location": "src\\steps\\consultarOrderSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2181600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "gestión-de-órdenes-en-petstore;crear-y-consultar-una-orden",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Crear y consultar una orden",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2096199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que tengo acceso a la API de Petstore",
+            "match": {
+              "location": "src\\steps\\consultarOrderSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "que he creado una orden con ID 10",
+            "match": {
+              "location": "src\\steps\\buscarOrdenCreadaSteps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161269200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "consulto la orden con ID 10",
+            "match": {
+              "location": "src\\steps\\consultarOrderSteps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2513899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "la respuesta debe contener el ID 10 y status y quantity",
+            "match": {
+              "location": "src\\steps\\buscarOrdenCreadaSteps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2217799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1369099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "gestión-de-órdenes-en-petstore;verificar-el-inventario-de-ventas",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verificar el inventario de ventas",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1707599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que tengo acceso a la API de Petstore",
+            "match": {
+              "location": "src\\steps\\consultarOrderSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 318499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "consulto el inventario de ventas",
+            "match": {
+              "location": "src\\steps\\inventorySteps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80873299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "la respuesta debe tener código 200",
+            "match": {
+              "location": "src\\steps\\consultarOrderSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "el inventario debe contener las claves sold y available en el body",
+            "match": {
+              "location": "src\\steps\\inventorySteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1983999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1593199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "gestión-de-órdenes-en-petstore;eliminar-una-orden-de-compra",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Eliminar una orden de compra",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1150000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que tengo acceso a la API de Petstore",
+            "match": {
+              "location": "src\\steps\\consultarOrderSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "que he creado una orden con ID 15",
+            "match": {
+              "location": "src\\steps\\buscarOrdenCreadaSteps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 940196900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "elimino la orden con ID 15",
+            "match": {
+              "location": "src\\steps\\eliminarOrderSteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1489183600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "la respuesta debe tener código 200",
+            "match": {
+              "location": "src\\steps\\consultarOrderSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 146799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "al consultar la orden con el ID 15 debe mostrar el message \"Order not found\"",
+            "match": {
+              "location": "src\\steps\\eliminarOrderSteps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80663300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1429299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "gestión-de-órdenes-en-petstore",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Gestión de órdenes en Petstore",
+    "tags": [],
+    "uri": "src\\features\\order.feature"
+  }
+]

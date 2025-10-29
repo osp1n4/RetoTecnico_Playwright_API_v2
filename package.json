@@ -1,0 +1,22 @@
+{
+  "name": "curso_playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "test:api": "cucumber-js -p default",
+  "test": "npm run test:api",
+  "test:runner": "ts-node test/runCucumber.ts"
+  ,"test:playwright-cucumber": "npx playwright test tests/runCucumber.spec.ts --project=chromium --workers=1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
