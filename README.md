@@ -1,4 +1,4 @@
-# Proyecto: Suite de pruebas API (Playwright + Cucumber)
+# Proyecto: Reto Técnico Playwright API(Petstore)
 
 Este repositorio contiene una suite de pruebas de API escrita en TypeScript usando Cucumber para BDD y Playwright (APIRequestContext) para llamadas HTTP.
 
@@ -47,7 +47,7 @@ Hay varias formas de ejecutar la suite; a continuación las más comunes (desde 
 - Ejecutar la suite Cucumber (script npm):
 
 ```powershell
-nnpx cucumber-js
+npx cucumber-js
 ```
 
 ```powershell

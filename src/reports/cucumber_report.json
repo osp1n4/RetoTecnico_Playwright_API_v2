@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 22943099
+              "duration": 21024199
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 424999
+              "duration": 280299
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 532895100
+              "duration": 576472200
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1939499
+              "duration": 3229500
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 238400
+              "duration": 306999
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2181600
+              "duration": 1836699
             }
           }
         ],
@@ -93,7 +93,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2096199
+              "duration": 1494599
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 155099
+              "duration": 182700
             }
           },
           {
@@ -119,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 161269200
+              "duration": 170629400
             }
           },
           {
@@ -132,7 +132,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2513899
+              "duration": 2737599
             }
           },
           {
@@ -145,7 +145,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2217799
+              "duration": 1527099
             }
           },
           {
@@ -153,7 +153,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1369099
+              "duration": 1148400
             }
           }
         ],
@@ -172,7 +172,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1707599
+              "duration": 754399
             }
           },
           {
@@ -185,7 +185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 318499
+              "duration": 98799
             }
           },
           {
@@ -198,7 +198,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 80873299
+              "duration": 84345699
             }
           },
           {
@@ -211,7 +211,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 121099
+              "duration": 190800
             }
           },
           {
@@ -224,7 +224,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1983999
+              "duration": 1613600
             }
           },
           {
@@ -232,7 +232,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1593199
+              "duration": 891099
             }
           }
         ],
@@ -251,7 +251,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1150000
+              "duration": 676199
             }
           },
           {
@@ -264,7 +264,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 112800
+              "duration": 87999
             }
           },
           {
@@ -277,7 +277,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 940196900
+              "duration": 169320900
             }
           },
           {
@@ -286,11 +286,11 @@
             "line": 24,
             "name": "elimino la orden con ID 15",
             "match": {
-              "location": "src\\steps\\eliminarOrderSteps.ts:6"
+              "location": "src\\steps\\eliminarOrderSteps.ts:116"
             },
             "result": {
               "status": "passed",
-              "duration": 1489183600
+              "duration": 173541299
             }
           },
           {
@@ -303,7 +303,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 146799
+              "duration": 180199
             }
           },
           {
@@ -312,11 +312,11 @@
             "line": 26,
             "name": "al consultar la orden con el ID 15 debe mostrar el message \"Order not found\"",
             "match": {
-              "location": "src\\steps\\eliminarOrderSteps.ts:68"
+              "location": "src\\steps\\eliminarOrderSteps.ts:125"
             },
             "result": {
               "status": "passed",
-              "duration": 80663300
+              "duration": 484454800
             }
           },
           {
@@ -324,7 +324,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1429299
+              "duration": 866299
             }
           }
         ],
